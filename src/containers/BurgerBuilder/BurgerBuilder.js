@@ -41,15 +41,7 @@ componentDidMount (){
      console.log(err);
    })
 
-   axios.get('https://organicbuy.herokuapp.com/getAllProducts/')
-    .then(response => {
-      //this.setState({ingredients: response.data});
-      //var res = JSON.parse(response.data)
-      console.log(response.data);
-    })
-    .catch(err => {
-      console.log(err);
-    })
+  
 
 }
 
